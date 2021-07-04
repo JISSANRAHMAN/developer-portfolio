@@ -3,8 +3,11 @@ body{
     margin: 0;
 }
 h1{ 
-    font-size: 50px;
+    font-size: 45px;
     
+}
+h2{
+    font-size: 40px;
 }
 .orange-color{
     color: orange;
@@ -41,4 +44,30 @@ section{
 .dream-background{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
+    background-position: right;
+
+}
+.box-design{
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 15px;
+}
+.last-background{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#baby-design{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#full-design{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
